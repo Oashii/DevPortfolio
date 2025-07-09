@@ -53,7 +53,7 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  margin: 50px 200px;
+  margin: 0 200px;
 }
 .nav-title {
   font-weight: 800;
@@ -109,4 +109,22 @@ main {
 .about {
   border-radius: 10px;
   padding: 130px 150px;
+  text-align: center;
+  margin-top: 120px;
+}
+
+.about-items {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.item-title {
+  color: #757575;
+  font-size: 20px;
+}
+.item-description {
+  font-size: 20px;
+  font-weight: bold;
+  color: #474747;
 }
