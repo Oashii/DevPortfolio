@@ -40,6 +40,9 @@
   color: #757575;
 }
 
+.text-center {
+  text-align: center;
+}
 /* header */
 
 .header {
@@ -151,4 +154,50 @@ main section {
   padding: 30px;
   border-radius: 5px;
   box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+}
+
+.resume-container {
+  display: flex;
+  gap: 200px;
+}
+
+.column-title {
+  font-size: 30px;
+  color: #474747;
+}
+
+.ex-title {
+  font-size: 25px;
+  color: #474747;
+}
+
+.ex-sub-title {
+  font-size: 20px;
+  color: #757575;
+}
+
+.ex-des {
+  font-size: 16px;
+  color: #757575;
+}
+
+footer {
+  padding: 130px 230px;
+  display: flex;
+  gap: 100px;
+}
+.footer-column {
+  width: 50%;
+}
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+  height: 64px;
+  border-radius: 5px;
+  background-color: white;
+  display: block;
+  width: 100%;
+  padding: 10px 20px;
+  margin-bottom: 24px;
+  border: none;
 }
